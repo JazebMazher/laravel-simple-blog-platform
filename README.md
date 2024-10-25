@@ -2,6 +2,25 @@
 
 Welcome to my Simple Blogging Platform! This project showcases my skills in web development using **Laravel**, a modern PHP framework that promotes elegant syntax and rapid development.
 
+## Features
+
+- **User Authentication:** This project includes a secure, full-featured user authentication system utilizing Laravel's built-in packages.
+
+  - **Authentication Package**: User authentication is implemented using [Laravel Breeze](https://laravel.com/docs/breeze), which provides pre-built authentication forms for essential functionality, including:
+      - **Login**
+      - **Registration**
+      - **Password Reset**
+      - **Email Verification**
+
+  - **Headless Authentication**: For API-driven or headless applications, [Laravel Fortify](https://laravel.com/docs/fortify) is used. This package supports:
+      - **Login and Registration Endpoints**
+      - **Email Verification**
+      - **Password Reset**
+      - **Two-Factor Authentication (2FA)** for enhanced security
+        <br/><br/>
+    These configurations allow for easy extension and customization of the authentication process. The combination of Laravel Breeze and Fortify ensures a streamlined, secure approach to managing user accounts on the platform.
+
+
 ### Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript, Blade templating
